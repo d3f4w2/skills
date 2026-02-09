@@ -23,6 +23,52 @@ meta_skills/
 
 ---
 
+## 环境配置
+
+### Conda 虚拟环境
+- **环境名称**: meta-skills
+- **Python 版本**: 3.10.19
+- **环境位置**: C:\Users\ljh\.conda\envs\meta-skills
+
+### 激活环境
+
+每次开发前需要激活虚拟环境：
+
+**Windows:**
+```bash
+conda activate meta-skills
+```
+
+**或使用 conda run:**
+```bash
+conda run -n meta-skills <command>
+```
+
+### 依赖版本
+
+**生产依赖：**
+- pydantic 2.12.5
+- pydantic-core 2.41.5
+- networkx 3.4.2
+- rich 14.3.2
+- typer 0.21.1
+- PyYAML 6.0.3
+- aiofiles 25.1.0
+- aiohttp 3.13.3
+
+**开发依赖：**
+- pytest 9.0.2
+- pytest-cov 7.0.0
+- pytest-asyncio 1.3.0
+- ruff 0.15.0
+
+### 环境变量（可选）
+
+可以通过环境变量配置存储路径：
+- `META_SKILLS_DATA_DIR`: 数据存储目录（默认：./data）
+
+---
+
 ## 核心模块职责
 
 ### core/models/skill.py

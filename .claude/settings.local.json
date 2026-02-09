@@ -18,7 +18,27 @@
       "Bash(python:*)",
       "Bash(ruff check:*)",
       "Bash(pip install:*)",
-      "Bash(where:*)"
+      "Bash(where:*)",
+      "Bash(if [ -f \"元方法论.txt\" ])",
+      "Bash(then echo \"EXISTS\")",
+      "Bash(else echo \"MISSING\")",
+      "Bash(fi)",
+      "Bash(if [ -f \"CLAUDE.md\" ])",
+      "Bash(if [ -f \"README.md\" ])",
+      "Bash(if [ -d \"memory-bank\" ])",
+      "Bash(if [ -d \"meta_skills\" ])",
+      "Bash(if [ -d \"tests\" ])",
+      "Bash(if:*)",
+      "Bash(if [ -d \".git\" ])",
+      "Bash(if [ -d \"Khazix-Skills\" ])",
+      "Bash(then echo \"STILL EXISTS!\")",
+      "Bash(else echo \"DELETED\")",
+      "Bash(if [ -f \"project-spec.md\" ])",
+      "Bash(if [ -f \"tech-stack.md\" ])",
+      "Bash(conda create:*)",
+      "Bash(conda activate:*)",
+      "Bash(C:Usersljh.condaScriptsactivate.bat:*)",
+      "Bash(conda run:*)"
     ]
   }
 }
